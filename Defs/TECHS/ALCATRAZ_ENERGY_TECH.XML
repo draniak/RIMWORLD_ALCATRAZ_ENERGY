@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Alcatraz_ENERGY_TECH</defName>
+    <label>Alcatraz_ENERGY</label>
+    <description>Recherche de la technologie specifique.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+<tab>Alcatraz_TECH</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Batteries_ADV</defName>
+    <label>Advanced battery</label>
+    <description>Batteries With more power storage and a miniature emplacement  .</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Alcatraz_ENERGY_TECH</li>
+    </prerequisites>
+<tab>Alcatraz_TECH</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Alcatraz_ENERGY_AIR_TECH</defName>
+    <label>Air technology</label>
+    <description>Research generator who could use the air for generating  electricity.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>Alcatraz_ENERGY_TECH</li>
+	  <li>Electricity</li>
+    </prerequisites>
+<tab>Alcatraz_TECH</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+</Defs>
